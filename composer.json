@@ -1,9 +1,15 @@
 {
-    "name": "laravel/laravel",
+    "name": "{{ .VendorName | ToLower | NoWS | Alphanumeric }}/{{ .ProjectName | ToLower | NoWS | Alphanumeric }}",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "{{ .ProjectDescription }}",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "{{ .AuthorName }}",
+            "email": "{{ .AuthorEmail }}"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
