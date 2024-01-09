@@ -6,6 +6,8 @@
 This package provides a wonderful **Laravel Skeleton** to start building your next laravel idea.
 This is part of the **Projectista** ([Github](https://github.com/projectista/projectista)) ecosystem, a set of tools to help you build your next project.
 
+For more information about Laravel, please visit [laravel.com](https://laravel.com).
+
 If is supposed to be used as a starting point for your next laravel application, scaffolded using the projectista binary.
 
 You can also use this as a standalone package, replacing all the placeholders using the provided `build.sh` script.
